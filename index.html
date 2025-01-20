@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funbosque</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- versão de desenvolvimento, inclui avisos úteis no console  -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+</head>
+<body>
+    <header class="header">
+
+    </header>
+        <main class="main">
+            <section class="fundo">
+                <div class="logo-container" style="text-align: center;">
+                    <img src="imagens/logo-funbosque.png" alt="Logo Funbosque" width="150" height="200">
+                </div>
+            </section>
+            <header class="header"></header>
+            <div class="text-center">
+                <div id="globais">
+                    <h1>Bloco das Lendas</h1>
+                    <h2>{{instrucoes_5}}</h2>
+                </div>
+            </div>
+            <hr class="custom-hr">
+            <section class="content">
+                <!--SALA COBRA GRANDE-->
+                <a href="sala_cobraGrande.html" class="card">
+                    <img src="imagens/sala_cobraGrande.jpeg" alt="Cobra Grande">
+                    <div class="container">
+                        <h2><b>Cobra Grande</b></h2>
+                    </div>
+                </a>
+                <!--SALA CURUPIRA-->
+                <a href="sala_curupira.html" class="card">
+                    <img src="imagens/sala_curupira.jpg" alt="Curupira">
+                    <div class="container">
+                        <h2><b>Curupira</b></h2>
+                    </div>
+                </a>
+                <!--SALA MATINTA-PEREIRA-->
+                <a href="sala_matinta.html" class="card">
+                    <img src="imagens/sala_matinta.jpg" alt="Matinta-Pereira">
+                    <div class="container">
+                        <h2><b>Matinta-Pereira</b></h2>
+                     </div>
+                </a>       
+            </section>
+            <hr class="custom-hr">  
+            
+            <div style="height: 600px;"></div> <!-- ajuste a altura conforme necessário -->
+        </main>
+    </div>
+    <script src="script.js"></script>
+    <footer class="footer">
+        <p>&copy; 2024 Departamento de Tecnologia da Informação (DTI) - Funbosque <a href = "#">Sobre</p>
+    </footer>
+</body>
+</html>
